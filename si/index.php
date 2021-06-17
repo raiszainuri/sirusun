@@ -1,5 +1,4 @@
-<?php require('../hnf/header.html');?>
-  
+<?php require('../hnf/header.php'); require('../controller/user.php');?>
   <!-- content:start -->
   <div class="box-header">
     <h3 class="box-title">Responsive Hover Table</h3>
@@ -55,4 +54,4 @@
   </div>
   <!-- content:end -->
 
-<?php require('../hnf/footer.html'); ?>
+<?php require('../hnf/footer.php'); ?>
