@@ -1,4 +1,4 @@
-<?php require('../hnf/header.html');	?>
+<?php require('../hnf/header.php');	?>
 
 <section class="content-header">
       <h1>
@@ -149,4 +149,4 @@
         </div>
        </section>
 
-<?php require('../hnf/footer.html');	?>
+<?php require('../hnf/footer.php');	?>
