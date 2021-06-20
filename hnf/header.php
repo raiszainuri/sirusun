@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SIRusun | Dashboard</title>
+    <title>SIRusun </title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bower_components/Ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="../dist/css/skins/skin-red-light.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="../dist/css/custom-css.css">
+
+    <!-- data tables -->
+    <link rel="stylesheet" href="../bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+
   </head>
   <body class="hold-transition skin-red-light sidebar-mini">
     <div class="wrapper">
@@ -19,7 +26,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>SIR</b></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>SI</b>Rusun</span>
+          <span class="logo-lg"><b>SIR</b>usun</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -46,25 +53,11 @@
                       <small>Member since Nov. 2012</small>
                     </p>
                   </li>
-                  <!-- Menu Body -->
-                  <li class="user-body">
-                    <div class="row">
-                      <div class="col-xs-4 text-center">
-                        <a href="#">Followers</a>
-                      </div>
-                      <div class="col-xs-4 text-center">
-                        <a href="#">Sales</a>
-                      </div>
-                      <div class="col-xs-4 text-center">
-                        <a href="#">Friends</a>
-                      </div>
-                    </div>
-                    <!-- /.row -->
-                  </li>
+                
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     <div class="pull-left">
-                      <a href="#" class="btn btn-default btn-flat">Profile</a>
+                      <a href="profil.php" class="btn btn-default btn-flat">Profile</a>
                     </div>
                     <div class="pull-right">
                       <a href="#" class="btn btn-default btn-flat">Sign out</a>
@@ -107,7 +100,7 @@
           <!-- /.search form -->
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu" data-widget="tree">
-            <li class="header">MAIN NAVIGATION</li>
+            <li class="header">DAFTAR MENU</li>
             <li class="active">
               <a href="index.php">
                 <i class="fa fa-dashboard"></i> <span>Beranda</span>
@@ -138,8 +131,8 @@
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Daftar Kamar</a></li>
-                <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Sewa Kamar</a></li>
+                <li><a href="daftar_kamar.php"><i class="fa fa-circle-o"></i> Daftar Kamar</a></li>
+                <li><a href="sewa_kamar.php"><i class="fa fa-circle-o"></i> Sewa Kamar</a></li>
               </ul>
             </li>
             <li class="treeview">
@@ -152,7 +145,8 @@
               </a>
               <ul class="treeview-menu">
                 <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Fasilitas Umum</a></li>
-                <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Jadwal Piket</a></li>
+                <li><a href="jadwal_piket.php"><i class="fa fa-circle-o"></i> Jadwal Piket</a></li>
+                <li><a href="informasi.php"><i class="fa fa-circle-o"></i> Informasi</a></li>
                 <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Admin</a></li>
               </ul>
             </li>
