@@ -1,5 +1,4 @@
-<?php require('../hnf/header.html');?>
-  
+<?php require('../hnf/header.php'); require('../controller/user.php');?>
   <!-- content:start -->
  <section class="content-header">
       <h1>
@@ -168,4 +167,4 @@
     </section>
   <!-- content:end -->
 
-<?php require('../hnf/footer.html'); ?>
+<?php require('../hnf/footer.php'); ?>
