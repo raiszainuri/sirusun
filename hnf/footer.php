@@ -1,4 +1,5 @@
               <!-- content:end -->
+              </div>
               <!-- /.box-body -->
             </div>
             <!-- /.box -->

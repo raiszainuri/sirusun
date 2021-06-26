@@ -1,6 +1,6 @@
 <?php
 
-    error_reporting(0);
+    //error_reporting(0);
     $q1 = 'localhost';
     $q2 = 'root';
     $q3 = '';
@@ -14,5 +14,5 @@
         echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
         exit;
     }else{
-        // echo "Terhubung";
+        //echo "Terhubung";
     }

@@ -16,7 +16,9 @@
 
     <!-- data tables -->
     <link rel="stylesheet" href="../bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+    <style type="text/css">
 
+    </style>
   </head>
   <body class="hold-transition skin-red-light sidebar-mini">
     <div class="wrapper">
@@ -169,5 +171,6 @@
       <div class="content-wrapper">
         <div class="row">
           <div class="col-xs-12">
-            <div class="box">
+            <div class="content">
+              <div class="box">
               <!-- content:start -->
