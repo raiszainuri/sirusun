@@ -147,11 +147,12 @@
                 <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Fasilitas Umum</a></li>
                 <li><a href="jadwal_piket.php"><i class="fa fa-circle-o"></i> Jadwal Piket</a></li>
                 <li><a href="informasi.php"><i class="fa fa-circle-o"></i> Informasi</a></li>
+                <li><a href="setting.php"><i class="fa fa-circle-o"></i> Setting</a></li>
                 <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Admin</a></li>
               </ul>
             </li>
             <li>
-              <a href="pages/mailbox/mailbox.html">
+              <a href="message.php">
                 <i class="fa fa-envelope"></i> <span>Perpesanan</span>
                 <span class="pull-right-container">
                   <small class="label pull-right bg-yellow">12</small>
