@@ -23,14 +23,14 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 col-xs-12">
           <!-- small box -->
-          <div class="small-box bg-default customBox" >
+          <div class="small-box bg-aqua" >
             <div class="inner">
               <h3>25</h3>
 
               <p>Warga Rusun</p>
             </div>
             <div class="icon">
-              <i class="fa fa-users customFa"></i>
+              <i class="fa fa-users "></i>
             </div>
             <a href="daftar_warga.php" class="small-box-footer">Info lebih lanjut <i class="fa fa-arrow-circle-right "></i></a>
           </div>
@@ -38,14 +38,14 @@
         <!-- ./col -->
         <div class="col-lg-4 col-md-6 col-xs-12">
           <!-- small box -->
-          <div class="small-box customBox">
+          <div class="small-box bg-green">
             <div class="inner">
               <h3>44</h3>
 
               <p>Kamar</p>
             </div>
             <div class="icon">
-              <i class="fa fa-bed customFa"  ></i>
+              <i class="fa fa-bed "  ></i>
             </div>
             <a href="daftar_kamar.php" class="small-box-footer" >Info lebih lanjut <i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -53,14 +53,14 @@
         <!-- ./col -->
         <div class="col-lg-4 col-md-6 col-xs-12">
           <!-- small box -->
-          <div class="small-box customBox">
+          <div class="small-box bg-yellow">
             <div class="inner">
               <h3>12</h3>
 
               <p>Seputar Informasi</p>
             </div>
             <div class="icon">
-              <i class="fa fa-info-circle customFa"  ></i>
+              <i class="fa fa-info-circle"  ></i>
             </div>
             <a href="#" class="small-box-footer">Info lebih lanjut <i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -68,14 +68,14 @@
         <!-- ./col -->
         <div class="col-lg-4 col-md-6 col-xs-12">
           <!-- small box -->
-          <div class="small-box customBox">
+          <div class="small-box bg-aqua">
             <div class="inner">
               <h3>1</h3>
 
               <p>Admin</p>
             </div>
             <div class="icon">
-              <i class="fa fa-user-secret customFa"  ></i>
+              <i class="fa fa-user-secret "  ></i>
             </div>
             <a href="#" class="small-box-footer">Info lebih lanjut <i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -84,14 +84,14 @@
 
         <div class="col-lg-4 col-md-6 col-xs-12">
           <!-- small box -->
-          <div class="small-box customBox">
+          <div class="small-box bg-green">
             <div class="inner">
               <h3>Jadwal</h3>
 
               <p>Piket</p>
             </div>
             <div class="icon">
-              <i class="fa fa-clipboard customFa"  ></i>
+              <i class="fa fa-clipboard "  ></i>
             </div>
             <a href="jadwal_piket.php" class="small-box-footer">Info lebih lanjut <i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -99,14 +99,14 @@
 
         <div class="col-lg-4 col-md-6 col-xs-12">
           <!-- small box -->
-          <div class="small-box customBox">
+          <div class="small-box bg-yellow">
             <div class="inner">
               <h3>1</h3>
 
               <p>Perpesanan</p>
             </div>
             <div class="icon">
-              <i class="fa fa-envelope customFa"  ></i>
+              <i class="fa fa-envelope "  ></i>
             </div>
             <a href="#" class="small-box-footer">Info lebih lanjut <i class="fa fa-arrow-circle-right"></i></a>
           </div>

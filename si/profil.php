@@ -13,7 +13,9 @@
     <section class="content">
     <div class="row">
    	 <div class="col-lg-11">
+<div class="col">
 
+</div>
 
 		<div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
