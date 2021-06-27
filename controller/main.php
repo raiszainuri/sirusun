@@ -64,6 +64,12 @@ require('koneksi.php');
             echo "Gagal";
         }
     }
+
+    function delete($){
+        global $link;
+
+        
+    }
 }
 
 ?>

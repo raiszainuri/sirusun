@@ -35,7 +35,7 @@
                   <?php
 
                      $data = getListWarga();
-                     if($data != 0){
+                     if($data->num_rows != 0){
                         $nomer = 0;
                         while ($row = $data->fetch_assoc()) {?>
                               <tr>

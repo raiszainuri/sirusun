@@ -1,4 +1,9 @@
-<?php require('../hnf/header.php');	?>
+<?php 
+
+require('../hnf/header.php'); 
+require('../controller/user.php');	
+
+?>
 
 <section class="content-header">
       <h1>
@@ -18,7 +23,7 @@
             </div>
             <!-- /.box-header -->
             <!-- form start -->
-            <form method="" action="" class="form-horizontal">
+            <form method="post" class="form-horizontal">
               <div class="box-body">
 
                  <input type="hidden" name="id">
@@ -27,7 +32,7 @@
                   <label class="col-sm-2 control-label">No Pokok</label>
 
                   <div class="col-sm-9">
-                    <input type="text" name="" class="form-control"  placeholder="No pokok">
+                    <input type="text" name="no_pokok" class="form-control"  placeholder="No pokok" required>
                   </div>
                 </div>
 
@@ -35,7 +40,7 @@
                   <label class="col-sm-2 control-label">Nama</label>
 
                   <div class="col-sm-9">
-                    <input type="text" name="" class="form-control"  placeholder="Nama">
+                    <input type="text" name="nama" class="form-control"  placeholder="Nama" required>
                   </div>
                 </div>
 
@@ -43,7 +48,7 @@
                   <label class="col-sm-2 control-label">Tanggal Lahir</label>
 
                   <div class="col-sm-9">
-                    <input type="date" name="" class="form-control"  placeholder="Tanggal Lahir">
+                    <input type="date" name="tgl_lahir" class="form-control"  placeholder="Tanggal Lahir" required>
                   </div>
                 </div>
 
@@ -53,12 +58,12 @@
                   <div class="col-sm-9">
                    <div class="radio">
                     <label>
-                      <input type="radio" name=" " id=" " value="Laki-laki" >
+                      <input type="radio" name="r_jk" id="" value="Laki-laki" >
                      Laki-laki
                     </label>
                   		&nbsp;&nbsp;
                     <label>
-                      <input type="radio" name=" " id=" " value="Perempuan" >
+                      <input type="radio" name="r_jk" id=" " value="Perempuan" >
                      Perempuan
                     </label>
                   </div>
@@ -70,7 +75,7 @@
                   <label class="col-sm-2 control-label">Alamat</label>
 
                   <div class="col-sm-9">
-                    <textarea class="form-control" rows="5"> </textarea>
+                    <textarea class="form-control" name="alamat" rows="5" required> </textarea>
                   </div>
                 </div>
 
@@ -78,7 +83,7 @@
                   <label class="col-sm-2 control-label">No Hp</label>
 
                   <div class="col-sm-9">
-                    <input type="text" class="form-control"  placeholder="No Hp">
+                    <input type="text" class="form-control" name="no_hp" placeholder="No Hp" required>
                   </div>
                 </div>
 
@@ -86,7 +91,7 @@
                   <label class="col-sm-2 control-label">Email</label>
 
                   <div class="col-sm-9">
-                    <input type="email" class="form-control"  placeholder="Email">
+                    <input type="email" name="email" class="form-control"  placeholder="Email" required>
                   </div>
                 </div>
 
@@ -94,15 +99,15 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
 
                   <div class="col-sm-9">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Password" required>
                   </div>
                 </div>
                
               </div>
               <!-- /.box-body -->
               <div class="box-footer text-center">
-                <button type="submit" class="btn btn-primary">Tambah</button>
-                <button type="reset" class="btn btn-danger">Reset</button>
+                <button type="submit" name="btnTambahWarga" class="btn btn-primary">Tambah</button>
+                <button type="submit" name="btnReset" class="btn btn-danger">Reset</button>
               </div>
               <!-- /.box-footer -->
             </form>
