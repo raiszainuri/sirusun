@@ -1,8 +1,4 @@
 <?php require('../hnf/header.php');  ?>
-<<<<<<< HEAD
-=======
-
->>>>>>> 4b690f5c3ba0a0b1e1f09b86ff078cf7c733ff61
 <section class="content-header">
     <h1>
         Sewa Kamar
